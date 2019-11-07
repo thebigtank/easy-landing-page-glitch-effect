@@ -1,0 +1,278 @@
+body {
+    background-color: #f9f9f9;
+}
+
+div#parent {
+    height: 1000px;
+    background: url('../assets/model1.jpg') no-repeat;
+    background-size: contain;
+    background-position-y: -180px;
+    background-position-x: 230px;
+    position: relative;
+}
+
+div#parent header {
+    font-family: mada;
+    padding: 60px 0px;
+}
+
+div#parent header .logo h1 {
+    text-transform: lowercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+div#parent header nav {
+    float: right;
+}
+
+div#parent header nav ul li {
+    float: left;
+    list-style: none;
+}
+
+div#parent header nav ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 40px;
+    color: #000;
+}
+
+div#parent header nav ul li a i {
+    font-weight: 600;
+}
+
+
+
+
+
+
+div#parent section {
+    position: relative;
+    top: 120px;
+}
+
+div#parent section .title {
+    text-transform: capitalize;
+}
+
+div#parent section .title h4 {
+    font-size: 14px;
+    font-family: mada;
+}
+
+div#parent section .title .glitch .display {
+    position: relative;
+}
+
+div#parent section .title h1 {
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: lato;
+    line-height: 100px;
+}
+
+div#parent section .content {
+    font-family: mada;
+    overflow: hidden;
+}
+
+div#parent section .content h5 {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #aaaaaa;
+}
+
+div#parent section .content p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+div#parent section .btn {
+    margin-top: 40px;
+    display: flex;
+}
+
+
+div#parent section .btn a {
+    text-decoration: none;
+    font-size: 20px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    transition: all 250ms ease-in-out;
+}
+
+
+div#parent section .btn a:first-child {
+    margin-right: 10px;
+    color: #F44336;
+    border: 1px solid #F44336;
+}
+
+div#parent section .btn a:last-child {
+    margin-right: 10px;
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+}
+
+
+div#parent section .btn a:first-child:hover {
+    background-color: #F44336;
+    color: #fff;
+}
+
+div#parent section .btn a:last-child:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+
+div#parent section aside {
+    transform-origin: right;
+    transform: rotate(90deg);
+    position: relative;
+    top: 600px;
+}
+
+div#parent section aside ul li {
+    display: inline-block;
+    margin-right: 70px;
+}
+
+div#parent section aside ul li a {
+    text-decoration: none;
+    font-family: mada;
+    font-size: 14px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+div#parent footer {
+    height: 240px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+div#parent footer .left {
+    background-color: #eeeeee;
+    height: inherit;
+    width: 100%;
+}
+
+div#parent footer .right {
+    background-color: #273238;
+    height: inherit;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+div#parent footer .left .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 240px;
+}
+
+div#parent footer .left .content h1 {
+    font-size: 35px;
+    font-weight: 400;
+    font-family: fira sans;
+}
+
+div#parent footer .left .content a {
+    font-size: 35px;
+    font-weight: 400;
+    font-family: fira sans;
+    text-decoration: none;
+    color: #6b6b6b;
+}
+
+div#parent footer .left .content a:hover {
+    color: #000;
+}
+
+div#parent footer .left .content h4 {
+    font-size: 14px;
+    font-family: mada;
+}
+
+div#parent footer .foo {
+    position: relative;
+    z-index: 3;
+}
+
+div#parent footer .foo.pic {
+    position: relative;
+    height: 290px;
+    width: 100%;
+    bottom: 50px;
+    overflow: hidden;
+
+}
+
+div#parent footer .foo.btn {
+    display: flex;
+    bottom: 50px;
+}
+
+
+div#parent footer .foo.btn .swiper-button-next, .swiper-button-prev {
+    position: static;
+    top: 0;
+    width: unset;
+    height: inherit;
+    margin-top: 0;
+    background-image: none;
+}
+
+div#parent footer .foo.btn button {
+    border: none;
+    background-color: #273238;
+    color: #fff;
+    padding: 18px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 250ms ease-in-out;
+}
+
+div#parent footer .foo.btn button i {
+    font-weight: 600;
+}
+
+div#parent footer .foo.btn button:hover {
+    background-color: #192125;
+}
+
+
+div#parent footer .foo.text {
+    padding-left: 20px;
+    font-family: mada;
+}
+
+div#parent footer .foo.text h4 {
+    margin-bottom: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+div#parent footer .foo.text p {
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+

@@ -1,0 +1,15 @@
+.glitch {
+	position: relative;
+}
+.glitch .layer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+}
+.glitch .display {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+

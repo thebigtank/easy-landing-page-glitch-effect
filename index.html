@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agbava</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/jquery-glitch.css">
+    <link rel="stylesheet" href="css/unsemantic-grid-responsive-tablet.css">
+    <link rel="stylesheet" href="css/line-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="parent">
+        <header>
+            <div class="grid-container">
+                <div class="grid-30">
+                    <div class="logo">
+                        <h1>agbava</h1>
+                    </div>
+                </div>
+
+                <div class="grid-70">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">gallery</a></li>
+                            <li><a href="#">contact</a></li>
+                            <li><a href="#"><i class="la la-search"></i></a></li>
+                            <li><a href="#"><i class="la la-navicon"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="grid-container">
+                <div class="grid-50">
+                    <div class="title">
+                        <h4>sleek</h4>
+                        <div class="glitch">
+                            <h1>tranquility</h1>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <h5>Wire</h5>
+                        <div class="grid-50 grid-parent">
+                            <p>
+                                Who dey in-charge, the man in-charge or the people wey say make e sidon for there?
+                            </p>
+                        </div>
+                        <div class="grid-50 grid-parent">
+                            <p>
+                                This one this woman dey look me so, i buy garri wen i never?
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="btn">
+                        <a href="#"><l class="la la-youtube-play"></l></a>
+                        <a href="#"><l class="la la-spotify"></l></a>
+                    </div>
+                </div>
+                <div class="grid-50">
+                    <aside>
+                        <ul>
+                            <li><a href="#">facebook</a></li>
+                            <li><a href="#">instagram</a></li>
+                            <li><a href="#">twitter</a></li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="left">
+                <div class="grid-container">
+                    <div class="grid-50 grid-parent">
+                        <div class="grid-33">
+                            <div class="content">
+                                <h1>16:00</h1>
+                                <h4>17 July, bigtank Arena.</h4>
+                            </div>
+                        </div>
+                        <div class="grid-33">
+                            <div class="content">
+                                <a href="#">Misan</a>
+                                <h4>Event Coordinator</h4>
+                            </div>
+                        </div>
+                        <div class="grid-33">
+                            <div class="content">
+                                <a href="#">Bolu</a>
+                                <h4>Tech Advisor</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-50 grid-parent">
+                        <div class="grid-50 grid-parent">
+                            <div class="foo pic">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="assets/swipe1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/swipe2.jpg" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/swipe3.jpg" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="assets/swipe4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="grid-50 grid-parent">
+                            <div class="foo btn">
+                                <button class="swiper-button-prev">
+                                    <i class="la la-angle-left"></i>
+                                </button>
+                                <button class="swiper-button-next">
+                                    <i class="la la-angle-right"></i>
+                                </button>
+                            </div>
+
+                            <div class="foo text">
+                                <h4>advice</h4>
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <p>
+                                                Dress well o, make boys no take you shine, then open office for your head.
+                                            </p>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ad molestias.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right"></div>
+        </footer>
+
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery-glitch.js"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            loop: true,
+            autoplay: {
+                delay: 500,
+                disableOnInteraction: false,
+            },
+        });
+
+        $(".glitch").glitch({
+            layers: ["red", "green"],
+            offset: [10, 0],
+        });
+    </script>
+    
+</body>
+</html>
